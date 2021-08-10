@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import copy from '../views/ChangeAndCopy.vue'
+import Random from '../views/RandomSure'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,10 @@ const routes = [
         path: '/copy',
         name: 'copy',
         component: copy
+    }, {
+        path: '/Random',
+        name: 'Random',
+        component: Random
     }
 ]
 

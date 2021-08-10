@@ -24,7 +24,7 @@
 export default {
   data() {
     return {
-      canCopy:true,
+      canCopy: true,
       none: '啥也不是',
       input: 8,
       chars: "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ",
@@ -58,8 +58,8 @@ export default {
 .fullScreen {
   margin: 0;
   padding: 0;
-  min-height: 1200px;
-  min-width: 1920px;
+  width: 100vw;
+  min-height: 100vh;
   background-color: #42b983;
   display: flex;
   justify-content: center;
